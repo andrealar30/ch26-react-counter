@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import  P  from './components/pharagraphLink/PharagraphLink';
+import  {App}  from './App';
 
 
 /* El renderizado importante */
@@ -11,12 +11,8 @@ root.render(
   <h2>Ya te la sabes, saca tu VSC</h2>
 </> }*/
     <React.StrictMode>
-      {/* <p href="http"> texto </p> */}
-      <P href = "https://legacy.reactjs.org/" color = "red" > React</P>  {/* color rojo */}
-      <P href = "https://youtube.com" color = "green">YouTube </P> {/* color verde */}
-      <P href = "https://linkedin.com" color ="purple"> LinkedIn</P> {/* color morado */}
+      <App />
     </React.StrictMode>
- 
 );
 
 /* Todo lo que se pone en un js debe estar en un elemento padre */
